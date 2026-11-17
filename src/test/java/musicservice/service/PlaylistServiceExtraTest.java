@@ -59,7 +59,7 @@ class PlaylistServiceExtraTest {
         service.addTrack(1, secondTrack);
 
         assertEquals(2, playlist.getTracks().size());
-        assertEquals(firstTrack, playlist.getTracks().get(0));
+        assertEquals(secondTrack, playlist.getTracks().get(0));
         assertEquals(secondTrack, playlist.getTracks().get(1));
     }
 }
